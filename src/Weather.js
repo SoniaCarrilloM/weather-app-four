@@ -23,8 +23,8 @@ export default function Weather() {
           </div>
         </div>
       </form>
+      <h1>New York</h1>
       <ul>
-        <h1>New York</h1>
         <li>Wednesday 7:00</li>
         <li>Mostly Cloudy</li>
       </ul>
@@ -36,7 +36,7 @@ export default function Weather() {
               alt="Mostly cloudy"
               className="float-left"
             ></img>
-            <span className="temperature">{Math.round(temperature)}</span>
+            <span className="temperature">6</span>
             <span className="unit">°C</span>
           </div>
         </div>
